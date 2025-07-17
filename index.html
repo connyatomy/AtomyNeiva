@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conny Atomy</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eaf4fb;
+      color: #333;
+    }
+    header {
+      background-color: #00aaff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      margin-top: 10px;
+      width: 150px;
+    }
+    nav {
+      background-color: #0077b6;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0077b6;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .producto {
+      background-color: #ffffff;
+      border: 1px solid #d0e6f7;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    .producto img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .producto button {
+      background-color: #00aaff;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .producto button:hover {
+      background-color: #0077b6;
+    }
+    footer {
+      background-color: #00aaff;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .imagen-principal {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .imagen-principal img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    ul li a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+    .testimonios {
+      background-color: #f4fbff;
+      padding: 30px;
+      border-top: 2px solid #d0e6f7;
+    }
+    .testimonio {
+      background-color: white;
+      border-left: 5px solid #00aaff;
+      margin: 20px auto;
+      padding: 15px 20px;
+      max-width: 800px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    .testimonio p {
+      font-style: italic;
+    }
+    .testimonio strong {
+      display: block;
+      margin-top: 10px;
+      text-align: right;
+      color: #0077b6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Conny Atomy</h1>
+    <p>Calidad Absoluta, Precio Absoluto</p>
+    <img src="Atomy_Logo.png" alt="Logo Atomy">
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="imagen-principal">
+    <img src="ChatGPT Image 17 jul 2025, 14_08_53.png" alt="Promoción Conny Atomy">
+  </div>
+
+  <section id="sobre">
+    <h2>Sobre Conny Atomy</h2>
+    <p>Conny Atomy es un emprendimiento dedicado a compartir los beneficios de los productos Atomy, reconocidos mundialmente por su calidad en salud, belleza y bienestar. Nuestra misión es ayudarte a mejorar tu calidad de vida con productos accesibles, efectivos y confiables.</p>
+  </section>
+
+  <section id="productos" class="productos">
+    <h2>Productos Destacados</h2>
+    <div class="producto">
+      <img src="https://atomy.com/_next/image?url=https%3A%2F%2Fs3.ap-northeast-2.amazonaws.com%2Fatony-image%2Fimages%2Fproduct%2FCO%2F3703%2Fmain%2F3703_main_3703.png&w=640&q=100" alt="Omega 3">
+      <h3>Atomy Omega 3</h3>
+      <p>Apoya la salud cardiovascular con ácidos grasos esenciales.</p>
+      <button onclick="window.open('https://www.atomy.com/co/Home/Product/ProductView?GdsCode=3703')">Ver más</button>
+    </div>
+    <div class="producto">
+      <img src="https://atomy.com/_next/image?url=https%3A%2F%2Fs3.ap-northeast-2.amazonaws.com%2Fatony-image%2Fimages%2Fproduct%2FCO%2F3502%2Fmain%2F3502_main_3502.png&w=640&q=100" alt="Cepillo Dental">
+      <h3>Cepillo Dental Atomy</h3>
+      <p>Cerdas suaves para un cepillado efectivo y delicado.</p>
+      <button onclick="window.open('https://www.atomy.com/co/Home/Product/ProductView?GdsCode=3502')">Ver más</button>
+    </div>
+    <div class="producto">
+      <img src="https://atomy.com/_next/image?url=https%3A%2F%2Fs3.ap-northeast-2.amazonaws.com%2Fatony-image%2Fimages%2Fproduct%2FCO%2F3337%2Fmain%2F3337_main_3337.png&w=640&q=100" alt="Detergente Atomy">
+      <h3>Detergente en Polvo</h3>
+      <p>Potente limpieza para tu ropa con fragancia suave.</p>
+      <button onclick="window.open('https://www.atomy.com/co/Home/Product/ProductView?GdsCode=3337')">Ver más</button>
+    </div>
+    <div class="producto">
+      <img src="https://atomy.com/_next/image?url=https%3A%2F%2Fs3.ap-northeast-2.amazonaws.com%2Fatony-image%2Fimages%2Fproduct%2FCO%2F3506%2Fmain%2F3506_main_3506.png&w=640&q=100" alt="Absolute Serum">
+      <h3>Absolute CellActive Serum</h3>
+      <p>Suero antiedad de alta eficacia para una piel radiante.</p>
+      <button onclick="window.open('https://www.atomy.com/co/Home/Product/ProductView?GdsCode=3506')">Ver más</button>
+    </div>
+  </section>
+
+  <section id="testimonios" class="testimonios">
+    <h2>Testimonios</h2>
+    <div class="testimonio">
+      <p>"Desde que uso los productos de Atomy, mi piel luce más radiante y saludable. ¡Estoy encantada con los resultados!"</p>
+      <strong>- Laura M.</strong>
+    </div>
+    <div class="testimonio">
+      <p>"Excelente calidad a un precio increíble. El Omega 3 de Atomy ha sido clave para mejorar mi salud cardiovascular."</p>
+      <strong>- Carlos G.</strong>
+    </div>
+    <div class="testimonio">
+      <p>"Me encanta la línea de cuidado personal. El detergente deja mi ropa impecable y con un aroma delicioso."</p>
+      <strong>- Juliana P.</strong>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Quieres saber más o hacer un pedido? Escríbenos:</p>
+    <ul>
+      <li>📱 WhatsApp: <a href="https://wa.me/573217575305">321 757 5305</a></li>
+      <li>📧 Email: conny.atomy2023@gmail.com</li>
+      <li>📘 Facebook: <a href="https://facebook.com/connyatomy" target="_blank">Conny Atomy</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Conny Atomy. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
